@@ -1,0 +1,41 @@
+Primeiro passo é criar o repositorio dentro do gitHub online.
+Segundo passo é ir no botão clonar e copiar o link gerado.
+
+Abra o git bash instalado em sua máquina e execute os comandos abaixo:
+//Clonando o repositorio dentro do git bash:
+$ git clone https://github.com/AtelliAndressa/DesafioGithub.git
+
+Cloning into 'DesafioGithub'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+///Abrindo o arquivo dentro do git bash:
+$ cd DesafioGithub/
+
+
+///Verifica o status:
+$ git status
+
+Crie alguma pasta e arquivo dentro de texto apenas para gerar arquivos e 
+treinar como adicionar ao repositorio online. Após, volte ao git bash e execute os
+comandos abaixo
+
+///Adicionando arquivos na fila do commit, usamos o ponto ao final para subir todos:
+$ git add .
+
+
+///Commit do arquivo e inclusão da mensagem que será apresentada:
+$ git commit -m "Inclusão do arquivo de anotações do curso"
+
+
+//Dando push para subir o arquivo para o repositório online:
+$ git push origin main
+
+///Verificando o status novamente:
+$ git status
+
+
+**********Pronto, o arquivo já foi enviado ao repositório online GitHub***************
